@@ -1,0 +1,590 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1dc57d21-364c-4143-8528-a55666e1bd47")
+	(paper "A4")
+	(title_block
+		(title "The AERoS")
+		(date "2025-07-12")
+		(rev "0.0.1")
+		(comment 1 "self-latching switch circuit to be replaced with a proper load switch in later revisions ")
+		(comment 2 "Black Magic Probe to be added in later revisions")
+		(comment 3 "extra pins to be exposed in later revisions")
+		(comment 4 "telemetry and gps to be added in later revisions")
+		(comment 5 "made for TARC 2026")
+		(comment 6 "further notes to be added in later revisions to explain values and whatnot")
+	)
+	(lib_symbols)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 228.6 101.346 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "4963acf0-9a36-402b-a31b-baf090d76478")
+	)
+	(text "0% (3.4V) at approx. 2.67V"
+		(exclude_from_sim no)
+		(at 125.984 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f21880b-24dd-41ce-a5e9-ed0a9a5829d0")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcd6d8b-8276-4927-99a3-0fa323f58259")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ef50ff-0561-41d5-b050-70a9319a1b58")
+	)
+	(wire
+		(pts
+			(xy 31.75 114.3) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428c309e-e835-4529-a037-46b71b175418")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552d4ff3-738d-4a6c-9ed8-2192e27ad4bb")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64074b2d-2f5c-4df0-ab1e-6dd6a38b85d5")
+	)
+	(wire
+		(pts
+			(xy 149.86 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e53fa2e-dfac-41b7-afdf-b15295fe7e83")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 132.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0bd102-f041-4a5d-b73c-906dcdb58fe3")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 157.48 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6f3387-7693-4fab-937e-c2b7b9656044")
+	)
+	(wire
+		(pts
+			(xy 97.79 49.53) (xy 97.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae197111-e53c-4ff5-8f19-b3e1d67534f0")
+	)
+	(wire
+		(pts
+			(xy 31.75 100.33) (xy 40.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed04c81d-95b4-4142-a3fe-11d3a910d4ba")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbd4b3f-2776-4834-a7d4-887bc98eb14b")
+	)
+	(hierarchical_label "SERVO_2"
+		(shape input)
+		(at 132.08 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0573c1c9-56e7-4a33-8152-b62d4fdf00fd")
+	)
+	(hierarchical_label "CHG"
+		(shape output)
+		(at 31.75 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0da943fe-67c9-4eb1-ad13-b41bd0b3824a")
+	)
+	(hierarchical_label "PG"
+		(shape output)
+		(at 31.75 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18518491-c3aa-4d9b-8922-d2fa62c75641")
+	)
+	(hierarchical_label "BATT_VSENSE"
+		(shape output)
+		(at 157.48 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cd83aa3-ac21-422e-91b6-3db468dec145")
+	)
+	(hierarchical_label "KEEP_ON"
+		(shape input)
+		(at 157.48 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25eeda46-3f48-4236-a963-03df98dc9fb5")
+	)
+	(hierarchical_label "POWER_ON"
+		(shape output)
+		(at 157.48 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e550d7e-686d-4821-9c0e-ddf1070e13fa")
+	)
+	(hierarchical_label "SERVO_1"
+		(shape input)
+		(at 132.08 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e905cef-3ade-4126-99f9-67dc03e7f204")
+	)
+	(hierarchical_label "SERVO_ON"
+		(shape input)
+		(at 97.79 49.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa1b5d52-3ddd-4b34-b866-5bbf19bab8ae")
+	)
+	(hierarchical_label "SERVO_3"
+		(shape input)
+		(at 132.08 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0fa1f48-60b2-44a9-addc-a3edb8dbfadd")
+	)
+	(sheet
+		(at 100.33 92.71)
+		(size 49.53 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "162709a5-1fec-4723-80db-e436f69a1db2")
+		(property "Sheetname" "On-Off Circuits"
+			(at 100.33 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "onoff.kicad_sch"
+			(at 100.33 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_IN" input
+			(at 100.33 107.95 180)
+			(uuid "1b87366b-fc2e-4054-bd8f-a3cbe8901e09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KEEP_ON" input
+			(at 149.86 106.68 0)
+			(uuid "55110798-02e0-4e7f-8e45-312e4a0987c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POWER_ON" output
+			(at 149.86 115.57 0)
+			(uuid "fefa8024-ead8-4697-a4c4-2302ef854d21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE" output
+			(at 149.86 97.79 0)
+			(uuid "a9614cea-e29d-4ce7-8c21-61399d3face3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AERoS"
+				(path "/1db5f102-ff91-4fb2-97a2-5b57f1bf4337/91f82ef6-c39d-4575-8150-5361bdfca34f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 92.71)
+		(size 49.53 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48d8bd83-076f-4642-a4c6-68540673c356")
+		(property "Sheetname" "Battery Direct"
+			(at 40.64 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battdir.kicad_sch"
+			(at 40.64 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_OUT" output
+			(at 81.28 92.71 90)
+			(uuid "2112d295-7ae4-421e-8c13-03eb9bb4db3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FILT_BATT" output
+			(at 90.17 107.95 0)
+			(uuid "b340200c-7323-49a7-bff7-c4da8d903d10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG" output
+			(at 40.64 100.33 180)
+			(uuid "aa054d7f-b216-4a82-b171-e0eef8033f39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG" output
+			(at 40.64 114.3 180)
+			(uuid "eeff4f2d-ebcc-4783-9d88-37d14749f34f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AERoS"
+				(path "/1db5f102-ff91-4fb2-97a2-5b57f1bf4337/91f82ef6-c39d-4575-8150-5361bdfca34f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 58.42)
+		(size 49.53 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d61b761-9ff8-47cd-9d13-6dad7a5c4c08")
+		(property "Sheetname" "Servo Power"
+			(at 71.12 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servopwr.kicad_sch"
+			(at 71.12 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_IN" input
+			(at 81.28 87.63 270)
+			(uuid "9d17333c-edd1-47df-99d1-fda98c611af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO_1" input
+			(at 120.65 63.5 0)
+			(uuid "626b4feb-69a1-4a93-bed7-372ed1f0b5c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_2" input
+			(at 120.65 72.39 0)
+			(uuid "36af3733-b014-42b2-9fc5-2c955fe7847f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_ON" input
+			(at 97.79 58.42 90)
+			(uuid "69b6fecb-ac93-456c-8d1f-dc487a3f12d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_3" input
+			(at 120.65 81.28 0)
+			(uuid "cfd46820-51cc-4cd8-9dc6-12dd148b92f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AERoS"
+				(path "/1db5f102-ff91-4fb2-97a2-5b57f1bf4337/91f82ef6-c39d-4575-8150-5361bdfca34f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 134.62)
+		(size 49.53 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "837883c2-db23-4981-80ae-dc3a9231bffc")
+		(property "Sheetname" "Microcontroller Regulator"
+			(at 40.64 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulator.kicad_sch"
+			(at 40.64 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AERoS"
+				(path "/1db5f102-ff91-4fb2-97a2-5b57f1bf4337/91f82ef6-c39d-4575-8150-5361bdfca34f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 134.62)
+		(size 49.53 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa36f5c8-ace2-4d1a-918f-6c9d4a4bebf1")
+		(property "Sheetname" "LED Power"
+			(at 101.6 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ledpwr.kicad_sch"
+			(at 101.6 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AERoS"
+				(path "/1db5f102-ff91-4fb2-97a2-5b57f1bf4337/91f82ef6-c39d-4575-8150-5361bdfca34f"
+					(page "8")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,83 @@
+STEPS:
+
+	PCB Layout (Manufacturing Capabilities)
+	
+	3D Model
+
+	Order (CHECK EVERYTHING BEFORE ORDERING!!!!!!!!!!!!!)
+
+	CAD
+
+	Coding
+		Configure DMA, and NVIC (Everything scan)
+
+Load Switch
+Black Magic Probe
+Extra Pins
+Documentation for Selling
+Extensions:
+	Telemetry
+	GPS
+
+
+
+
+
+
+
+Order check:
+	DRC
+	Symbol to footprint match
+	Check each schematic for validity
+	Check each footprint for the part
+	Check part validity (stock, current and voltage ratings, including regulators)
+	Bill of materials populated and part numbers added
+	Positioning file made
+	PCB dimensions
+	ChatGPT all schematics
+	Microcontroller pinout
+	Check MOSFET gate voltages
+	MOSFET directions
+	MOSFET reverse current handling
+	Check diode directions
+	Logic voltage matching
+	Input voltages
+	Ferrite bead
+	USB extra pin connections
+	Track power consumption
+	3d model and track interference
+	DRC again
+	Switch sides
+	Silkscreen (text thicknesses)
+	Make sure order inputs are right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DMA:
+	LED
+	SPI
+	I2C
+	USB
+NVIC:
+	Buzzer
+	IMU1
+	IMU2
+	Baro1
+	CHG
+	ADC WatchDog
+	Data Logging
+

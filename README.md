@@ -41,8 +41,8 @@ A high-performance, compact rocket flight controller board designed around the *
    +-----------------------------------------------------------------+
    |                        USB-C 2.0 / Charger                      |
    +-----------------------------------------------------------------+
-                                    |
-                                    v
+        |                           |
+        v                           v
    +-------+           +-------------------------+           +-------+
    | Battery| ------>  | Self-Latching MOSFET SW |  -------> | Regs  |
    +-------+           +-------------------------+           +-------+
@@ -54,7 +54,7 @@ A high-performance, compact rocket flight controller board designed around the *
    | STM32F411RET6   | <--- SPI/I2C --- | Sensor Bus |   +---------------+
    | Microcontroller |                  +------------+           |
    +-----------------+------+                                    v
-    |      |        |       |                              [ Servo Pins ]
+    |      |        |       | ---------------------------> [ Servo Pins ]
     v      v        v       v
   [LEDs][Buzzer][SD Card][ST-Link]
 ```
